@@ -1,70 +1,45 @@
-University Enrollment & Course Management System
-SQL Project 
-📌 Overview
+**SQL Final Project**
 
-The University Enrollment & Course Management System is a fully functional SQL-based project that demonstrates how a real academic database operates.
-This system showcases key SQL concepts such as:
+---
 
-Database creation with proper constraints
+## Overview  
+The **University Course Management System** is a fully functional SQL-based project designed to demonstrate advanced database concepts including:
 
-Normalized relational table structures
+- Database design & normalization  
+- Table creation with proper keys & constraints  
+- CRUD operations  
+- Joins (INNER, LEFT, RIGHT)  
+- Subqueries  
+- Aggregations & filtering (GROUP BY, HAVING)  
+- String, date, and numeric manipulation  
+- Window functions  
+- SQL CASE expressions  
 
-CRUD operations
+This project simulates the core data operations required to run a **university academic system**.
 
-INNER, LEFT, RIGHT, FULL (via UNION) joins
+---
 
-Subqueries
-
-GROUP BY & HAVING for analytical queries
-
-Date, string, and numeric functions
-
-Window functions (Running counts)
-
-CASE expressions for classification
-
-The project simulates the data workflow used in a modern university academic environment.
-
-📂 Project Objectives
-
+##  Project Objectives  
 This project aims to:
 
-Build a complete relational database for managing students, instructors, courses, and enrollments
+- Build a complete and normalized relational database system  
+- Demonstrate all major SQL operations in a real-world use case  
+- Handle student enrollments, course assignments, instructor mapping, and department structure  
+- Practice advanced SQL queries on realistic data  
+- Provide a working `.sql` file that can be executed in any MySQL 8.x environment  
 
-Demonstrate all major SQL operations in a real-world education domain
+---
 
-Use foreign key constraints to maintain data integrity
+##  Database Entity Overview  
 
-Provide a ready-to-run .sql script for MySQL 8.x
+The system includes **five main entities**:
 
-Practice analysis queries on realistic academic data
+1. **Students** – personal info, enrollment info  
+2. **Courses** – course catalog  
+3. **Departments** – university academic departments  
+4. **Instructors** – teaching faculty  
+5. **Enrollments** – mapping students to courses  
 
-🏛️ Database Entity Overview
+---
 
-The system consists of five main entities, connected through meaningful relationships:
-
-1. Departments
-
-Stores academic department names (ex: Information Technology, Data Analytics).
-
-2. Students
-
-Contains personal details, birth date, and enrollment date for each student.
-(Your version includes: Aarav Sharma, Meera Joshi, Siddharth Kapoor.)
-
-3. Courses
-
-Represents academic courses offered under departments.
-(E.g., Database Fundamentals, Statistical Computing.)
-
-4. Instructors
-
-Faculty details mapped to their departments.
-(E.g., Ritika Mehta, Karan Patel.)
-
-5. Enrollments
-
-Maps each student to the courses they enroll in.
-Includes enrollment date and supports window analysis.
-
-
+##  ER Diagram (Conceptual)
